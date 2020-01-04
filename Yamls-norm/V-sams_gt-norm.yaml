@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - самс: # Verb 'to arrive' - full paradigm
+     самс+V+IV+Ind+Prs+ScSg1: сан
+     самс+V+IV+Ind+Prs+ScSg2: сат
+     самс+V+IV+Ind+Prs+ScSg3: сай
+     самс+V+IV+Ind+Prs+ScPl1: сатама
+     самс+V+IV+Ind+Prs+ScPl2: сатада
+     самс+V+IV+Ind+Prs+ScPl3: сайхть
+
+     самс+V+IV+Ind+Prt1+ScSg1: сань
+     самс+V+IV+Ind+Prt1+ScSg2: сать
+     самс+V+IV+Ind+Prt1+ScSg3: сась
+     самс+V+IV+Ind+Prt1+ScPl1: саме
+     самс+V+IV+Ind+Prt1+ScPl2: саде
+     самс+V+IV+Ind+Prt1+ScPl3: састь
+     
+     самс+V+IV+Ind+Prt2+ScSg1: салень
+     самс+V+IV+Ind+Prt2+ScSg2: салеть
+     самс+V+IV+Ind+Prt2+ScSg3: саль
+     самс+V+IV+Ind+Prt2+ScPl1: салеме
+     самс+V+IV+Ind+Prt2+ScPl2: саледе
+     самс+V+IV+Ind+Prt2+ScPl3: сальхть
+     
+     самс+V+IV+Imprt+ScSg2: сак
+     самс+V+IV+Imprt+ScPl2: сада
+     
+     самс+V+IV+Opt+ScSg1: сазан
+     самс+V+IV+Opt+ScSg2: сазат
+     самс+V+IV+Opt+ScSg3: саза
+     самс+V+IV+Opt+ScPl1: састама
+     самс+V+IV+Opt+ScPl2: састада
+     самс+V+IV+Opt+ScPl3: саст

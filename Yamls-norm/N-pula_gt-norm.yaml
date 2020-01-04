@@ -1,0 +1,104 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - пула: # Ordinary nouns 'tail' - full paradigm including MWN
+     пула+N+Sg+Nom+Indef: пула
+     пула+N+SP+Gen+Indef: пулонь
+     пула+N+SP+Abl+Indef: пулода
+     пула+N+SP+Dat+Indef: пулонди
+     пула+N+SP+Abe+Indef: пулофтома
+     пула+N+SP+Cmpr+Indef: пулошка
+     пула+N+SP+Ine+Indef: пулоса
+     пула+N+SP+Ela+Indef: пулоста
+     пула+N+SP+Ill+Indef: пулос
+     пула+N+SP+Prl+Indef: пулова
+     пула+N+SP+Tra+Indef: пулокс
+     пула+N+Sg+Nom+PxSg1: пулозе
+     пула+N+Pl+Nom+PxSg1: пулоне
+     пула+N+Sg+Gen+PxSg1: пулозень
+     пула+N+Pl+Gen+PxSg1: пулонень
+     пула+N+Sg+Dat+PxSg1: [пулозти, пулозенди]
+     пула+N+Pl+Dat+PxSg1: пулоненди
+     пула+N+SP+Abl+PxSg1: пулодон
+     пула+N+SP+Abe+PxSg1: пулофтомон
+     пула+N+SP+Cmpr+PxSg1: пулошкан
+     пула+N+SP+Ine+PxSg1: пулосон
+     пула+N+SP+Ela+PxSg1: пулостон
+     пула+N+SP+Ill+PxSg1: пулозон
+     пула+N+SP+Prl+PxSg1: пулован
+     пула+N+Sg+Nom+PxSg2: пулоце
+     пула+N+Pl+Nom+PxSg2: пулотне
+     пула+N+Sg+Gen+PxSg2: пулоцень
+     пула+N+Pl+Gen+PxSg2: пулотнень
+     пула+N+SP+Abl+PxSg2: пулодот
+     пула+N+SP+Abe+PxSg2: пулофтомот
+     пула+N+SP+Cmpr+PxSg2: пулошкат
+     пула+N+SP+Ine+PxSg2: пулосот
+     пула+N+SP+Ela+PxSg2: пулостот
+     пула+N+SP+Ill+PxSg2: пулозт
+     пула+N+SP+Prl+PxSg2: пуловат
+     пула+N+Sg+Nom+PxSg3: пулоц
+     пула+N+Pl+Nom+PxSg3: пулонза
+     пула+N+Sg+Gen+PxSg3: пулонц
+     пула+N+Pl+Gen+PxSg3: пулонзон
+     пула+N+Sg+Dat+PxSg3: пулонцты
+     пула+N+Pl+Dat+PxSg3: пулонзонды
+     пула+N+SP+Abl+PxSg3: пулодонза
+     пула+N+SP+Abe+PxSg3: пулофтомонза
+     пула+N+SP+Cmpr+PxSg3: пулошканза
+     пула+N+SP+Ine+PxSg3: пулосонза
+     пула+N+SP+Ela+PxSg3: пулостонза
+     пула+N+SP+Ill+PxSg3: пулозонза
+     пула+N+SP+Prl+PxSg3: пулованза
+     пула+N+SP+Nom+PxPl1: пулоньке
+     пула+N+SP+Gen+PxPl1: пулоньконь
+     пула+N+SP+Dat+PxPl1: пулоньконди
+     пула+N+SP+Abl+PxPl1: пулодонк
+     пула+N+SP+Abe+PxPl1: пулофтомонк
+     пула+N+SP+Cmpr+PxPl1: пулошканк
+     пула+N+SP+Ine+PxPl1: пулосонк
+     пула+N+SP+Ela+PxPl1: пулостонк
+     пула+N+SP+Ill+PxPl1: пулозонк
+     пула+N+SP+Prl+PxPl1: пулованк
+     пула+N+SP+Nom+PxPl2: пулонте
+     пула+N+SP+Gen+PxPl2: пулонтень
+     пула+N+SP+Dat+PxPl2: пулонтенди
+     пула+N+SP+Abl+PxPl2: пулодонт
+     пула+N+SP+Abe+PxPl2: пулофтомонт
+     пула+N+SP+Cmpr+PxPl2: пулошкант
+     пула+N+SP+Ine+PxPl2: пулосонт
+     пула+N+SP+Ela+PxPl2: пулостонт
+     пула+N+SP+Ill+PxPl2: пулозонт
+     пула+N+SP+Prl+PxPl2: пуловант
+     пула+N+SP+Nom+PxPl3: пулосна
+     пула+N+SP+Gen+PxPl3: пулоснон
+     пула+N+SP+Dat+PxPl3: пулоснонды
+     пула+N+SP+Abl+PxPl3: пулодост
+     пула+N+SP+Abe+PxPl3: пулофтомост
+     пула+N+SP+Cmpr+PxPl3: пулошкаст
+     пула+N+SP+Ine+PxPl3: пулосост
+     пула+N+SP+Ela+PxPl3: пулостост
+     пула+N+SP+Ill+PxPl3: пулозост
+     пула+N+SP+Prl+PxPl3: пуловаст
+     пула+N+Pl+Nom+Indef: пулот
+     пула+N+Sg+Nom+Def: пулось
+     пула+N+Sg+Gen+Def: пулоть
+     пула+N+Sg+Dat+Def: пулоти
+     пула+N+Pl+Nom+Def: пулотне
+     пула+N+Pl+Gen+Def: пулотнень
+     пула+N+Pl+Dat+Def: пулотненди    
+     пула+N+Der/Dim+N+Sg+Nom+Indef: пулоня

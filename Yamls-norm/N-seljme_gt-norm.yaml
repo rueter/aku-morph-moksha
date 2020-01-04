@@ -1,0 +1,103 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - сельме: # Ordinary nouns 'eye' - full paradigm including MWN
+     сельме+N+Sg+Nom+Indef: сельме
+     сельме+N+SP+Gen+Indef: сельмонь
+     сельме+N+SP+Abl+Indef: сельмода
+     сельме+N+SP+Dat+Indef: сельмонди
+     сельме+N+SP+Abe+Indef: сельмофтома
+     сельме+N+SP+Cmpr+Indef: сельмошка
+     сельме+N+SP+Ine+Indef: сельмоса
+     сельме+N+SP+Ela+Indef: сельмоста
+     сельме+N+SP+Ill+Indef: сельмос
+     сельме+N+SP+Prl+Indef: сельмова
+     сельме+N+SP+Tra+Indef: сельмокс
+     сельме+N+Sg+Nom+PxSg1: сельмозе
+     сельме+N+Pl+Nom+PxSg1: сельмоне
+     сельме+N+Sg+Gen+PxSg1: сельмозень
+     сельме+N+Pl+Gen+PxSg1: сельмонень
+     сельме+N+Sg+Dat+PxSg1: [сельмозенди, сельмозти]
+     сельме+N+Pl+Dat+PxSg1: сельмоненди
+     сельме+N+SP+Abl+PxSg1: сельмодон
+     сельме+N+SP+Abe+PxSg1: сельмофтомон
+     сельме+N+SP+Cmpr+PxSg1: сельмошкан
+     сельме+N+SP+Ine+PxSg1: сельмосон
+     сельме+N+SP+Ela+PxSg1: сельмостон
+     сельме+N+SP+Ill+PxSg1: сельмозон
+     сельме+N+SP+Prl+PxSg1: сельмован
+     сельме+N+Sg+Nom+PxSg2: сельмоце
+     сельме+N+Pl+Nom+PxSg2: сельмотне
+     сельме+N+Sg+Gen+PxSg2: сельмоцень
+     сельме+N+Pl+Gen+PxSg2: сельмотнень
+     сельме+N+SP+Abl+PxSg2: сельмодот
+     сельме+N+SP+Abe+PxSg2: сельмофтомот
+     сельме+N+SP+Cmpr+PxSg2: сельмошкат
+     сельме+N+SP+Ine+PxSg2: сельмосот
+     сельме+N+SP+Ela+PxSg2: сельмостот
+     сельме+N+SP+Ill+PxSg2: сельмозт
+     сельме+N+SP+Prl+PxSg2: сельмоват
+     сельме+N+Sg+Nom+PxSg3: сельмоц
+     сельме+N+Pl+Nom+PxSg3: сельмонза
+     сельме+N+Sg+Gen+PxSg3: сельмонц
+     сельме+N+Pl+Gen+PxSg3: сельмонзон
+     сельме+N+Sg+Dat+PxSg3: сельмонцты
+     сельме+N+Pl+Dat+PxSg3: сельмонзонды
+     сельме+N+SP+Abl+PxSg3: сельмодонза
+     сельме+N+SP+Abe+PxSg3: сельмофтомонза
+     сельме+N+SP+Cmpr+PxSg3: сельмошканза
+     сельме+N+SP+Ine+PxSg3: сельмосонза
+     сельме+N+SP+Ela+PxSg3: сельмостонза
+     сельме+N+SP+Ill+PxSg3: сельмозонза
+     сельме+N+SP+Prl+PxSg3: сельмованза
+     сельме+N+SP+Nom+PxPl1: сельмоньке
+     сельме+N+SP+Gen+PxPl1: сельмоньконь
+     сельме+N+SP+Dat+PxPl1: сельмоньконди
+     сельме+N+SP+Abl+PxPl1: сельмодонк
+     сельме+N+SP+Abe+PxPl1: сельмофтомонк
+     сельме+N+SP+Cmpr+PxPl1: сельмошканк
+     сельме+N+SP+Ine+PxPl1: сельмосонк
+     сельме+N+SP+Ela+PxPl1: сельмостонк
+     сельме+N+SP+Ill+PxPl1: сельмозонк
+     сельме+N+SP+Prl+PxPl1: сельмованк
+     сельме+N+SP+Nom+PxPl2: сельмонте
+     сельме+N+SP+Gen+PxPl2: сельмонтень
+     сельме+N+SP+Dat+PxPl2: сельмонтенди
+     сельме+N+SP+Abl+PxPl2: сельмодонт
+     сельме+N+SP+Abe+PxPl2: сельмофтомонт
+     сельме+N+SP+Cmpr+PxPl2: сельмошкант
+     сельме+N+SP+Ine+PxPl2: сельмосонт
+     сельме+N+SP+Ela+PxPl2: сельмостонт
+     сельме+N+SP+Ill+PxPl2: сельмозонт
+     сельме+N+SP+Prl+PxPl2: сельмовант
+     сельме+N+SP+Nom+PxPl3: сельмосна
+     сельме+N+SP+Gen+PxPl3: сельмоснон
+     сельме+N+SP+Dat+PxPl3: сельмоснонды
+     сельме+N+SP+Abl+PxPl3: сельмодост
+     сельме+N+SP+Abe+PxPl3: сельмофтомост
+     сельме+N+SP+Cmpr+PxPl3: сельмошкаст
+     сельме+N+SP+Ine+PxPl3: сельмосост
+     сельме+N+SP+Ela+PxPl3: сельмостост
+     сельме+N+SP+Ill+PxPl3: сельмозост
+     сельме+N+SP+Prl+PxPl3: сельмоваст
+     сельме+N+Pl+Nom+Indef: сельмот
+     сельме+N+Sg+Nom+Def: сельмось
+     сельме+N+Sg+Gen+Def: сельмоть
+     сельме+N+Sg+Dat+Def: сельмоти
+     сельме+N+Pl+Nom+Def: сельмотне
+     сельме+N+Pl+Gen+Def: сельмотнень
+     сельме+N+Pl+Dat+Def: сельмотненди    

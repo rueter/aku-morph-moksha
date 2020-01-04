@@ -1,0 +1,50 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - ащемс: # Verb 'to be, be situated' - full paradigm
+     ащемс+V+IV+Ind+Prs+ScSg1: ащан
+     ащемс+V+IV+Ind+Prs+ScSg2: ащат
+     ащемс+V+IV+Ind+Prs+ScSg3: ащи
+     ащемс+V+IV+Ind+Prs+ScPl1: ащетяма
+     ащемс+V+IV+Ind+Prs+ScPl2: ащетяда
+     ащемс+V+IV+Ind+Prs+ScPl3: ащихть
+
+     ащемс+V+IV+Ind+Prt1+ScSg1: ащень
+     ащемс+V+IV+Ind+Prt1+ScSg2: ащеть
+     ащемс+V+IV+Ind+Prt1+ScSg3: ащесь
+     ащемс+V+IV+Ind+Prt1+ScPl1: ащеме
+     ащемс+V+IV+Ind+Prt1+ScPl2: ащеде
+     ащемс+V+IV+Ind+Prt1+ScPl3: ащесть
+     
+     ащемс+V+IV+Ind+Prt2+ScSg1: ащелень
+     ащемс+V+IV+Ind+Prt2+ScSg2: ащелеть
+     ащемс+V+IV+Ind+Prt2+ScSg3: ащель
+     ащемс+V+IV+Ind+Prt2+ScPl1: ащелеме
+     ащемс+V+IV+Ind+Prt2+ScPl2: ащеледе
+     ащемс+V+IV+Ind+Prt2+ScPl3: ащельхть
+     
+     ащемс+V+IV+Imprt+ScSg2: ащек
+     ащемс+V+IV+Imprt+ScPl2: ащеда
+     
+     ащемс+V+IV+Opt+ScSg1: ащезан
+     ащемс+V+IV+Opt+ScSg2: ащезат
+     ащемс+V+IV+Opt+ScSg3: ащеза
+#     ащемс+V+IV+Opt+ScPl1: ащестама
+#     ащемс+V+IV+Opt+ScPl2: ащестада
+     ащемс+V+IV+Opt+ScPl3: ащест
+
+#
+#
